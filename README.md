@@ -7,7 +7,7 @@ import time
 from deepface import DeepFace
 from flask import Flask, request, jsonify
 
-# Create a folder to store reference faces
+# Create a Folder to store reference faces
 FACES_DB = "faces_db"
 os.makedirs(FACES_DB, exist_ok=True)
 
