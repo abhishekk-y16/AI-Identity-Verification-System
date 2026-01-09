@@ -85,7 +85,7 @@ def live_face_verification():
             face_img = frame[y:y+h, x:x+w]
             cv2.imwrite("live_face.jpg", face_img)
             
-            # Verify the captured face with all reference images
+            # Verify the Captured face with all reference images
             stored_faces = [os.path.join(FACES_DB, f) for f in os.listdir(FACES_DB)]
             best_match, distance = verify_identity("live_face.jpg", stored_faces)
             label = f"Match: {best_match}" if best_match else "No Match"
