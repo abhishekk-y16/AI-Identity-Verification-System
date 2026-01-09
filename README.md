@@ -112,7 +112,7 @@ if __name__ == '__main__':
         print("Starting Live Face Verification...")
         live_face_verification()
     else:
-        print("No reference face detected in sample.jpg.")
+        print("No Reference face detected in sample.jpg.")
     
     # Run Flask Server
     app.run(debug=False)
