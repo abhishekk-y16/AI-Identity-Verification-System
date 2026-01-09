@@ -108,7 +108,7 @@ if __name__ == '__main__':
     # Run Face Detection Example
     faces = detect_faces("sample.jpg")
     if faces:
-        print("Stored reference faces successfully.")
+        print("Stored Reference faces successfully.")
         print("Starting Live Face Verification...")
         live_face_verification()
     else:
