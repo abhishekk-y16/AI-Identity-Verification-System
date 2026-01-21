@@ -41,7 +41,7 @@ def verify_identity(live_face, reference_faces):
             print(f"Error comparing {live_face} with {ref_face}: {str(e)}")
     
     if best_match:
-        print("✅ Final Match Verified!")
+        print("✅ Final Match  Verified!")
     else:
         print("❌ No Match Found.")
     
