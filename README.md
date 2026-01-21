@@ -26,7 +26,7 @@ def detect_faces(image_path, save_folder=FACES_DB):
         detected_faces.append(face_filename)
     return detected_faces
 
-# Face Recognition
+# Face Recognitions
 def verify_identity(live_face, reference_faces):
     best_match = None
     best_distance = float("inf")
