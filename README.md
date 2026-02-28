@@ -51,7 +51,7 @@ def verify_identity(live_face, reference_faces):
 mp_face_mesh = mp.solutions.face_mesh
 face_mesh = mp_face_mesh.FaceMesh(min_detection_confidence=0.5, min_tracking_confidence=0.5)
 def detect_liveness(frame):
-    frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+    frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB) 
     results = face_mesh.process(frame_rgb)
     return results.multi_face_landmarks is not None
 
