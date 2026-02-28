@@ -37,7 +37,7 @@ def verify_identity(live_face, reference_faces):
                 best_match = ref_face
                 best_distance = result['distance']
                 print(f"✅ Match Found: {best_match}, Distance: {best_distance:.2f}")
-        except Exception as e:
+        except Exception as e: 
             print(f"Error comparing {live_face} with {ref_face}: {str(e)}")
     
     if best_match:
