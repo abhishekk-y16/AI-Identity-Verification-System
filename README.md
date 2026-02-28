@@ -64,7 +64,7 @@ def verify():
     img1 = data['img1']
     img2 = data['img2']
     verified, distance = verify_identity(img1, [img2])
-    return jsonify({"verified": bool(verified), "distance": distance})
+    return jsonify({"verified": bool(verified), "distance": distance}) 
 
 # Live Webcam Face Verification
 def live_face_verification():
