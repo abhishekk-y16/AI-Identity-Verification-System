@@ -11,7 +11,7 @@ from flask import Flask, request, jsonify
 FACES_DB = "faces_db" 
 os.makedirs(FACES_DB, exist_ok=True)
 
-# Face Detection 
+# Face Detection  
 detector = dlib.get_frontal_face_detector()
 def detect_faces(image_path, save_folder=FACES_DB):
     img = cv2.imread(image_path)
