@@ -59,7 +59,7 @@ def detect_liveness(frame):
 app = Flask(__name__)
 
 @app.route('/verify', methods=['POST'])
-def verify():
+def verify(): 
     data = request.json
     img1 = data['img1']
     img2 = data['img2']
