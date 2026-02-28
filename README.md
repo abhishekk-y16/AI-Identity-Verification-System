@@ -33,7 +33,7 @@ def verify_identity(live_face, reference_faces):
     for ref_face in reference_faces:
         try:
             result = DeepFace.verify(live_face, ref_face, model_name='Facenet')
-            if result['verified'] and result['distance'] < best_distance:
+            if result['verified'] and result['distance'] < best_distance: 
                 best_match = ref_face
                 best_distance = result['distance']
                 print(f"✅ Match Found: {best_match}, Distance: {best_distance:.2f}")
