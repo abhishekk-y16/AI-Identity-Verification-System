@@ -155,7 +155,7 @@ export default function ClockPage() {
           <canvas ref={canvasRef} className="hidden" />
           {step === 'recording' && (
             <div className="absolute top-4 right-4 flex items-center gap-2 bg-red-600 text-white px-3 py-1 rounded-full text-sm animate-pulse">
-              <Mic className="h-4 w-4" /> Recording voice...
+              <Mic className="h-4 w-4" /> Recording voice.....
             </div>
           )}
           {step === 'submitting' && (
