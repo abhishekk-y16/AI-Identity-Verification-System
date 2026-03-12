@@ -34,7 +34,7 @@ export default function ClockPage() {
       setError('')
       setResult(null)
     } catch {
-      setError('Failed to access camera/microphone. Please allow permissions.')
+      setError('Failed to access Camera/Microphone. Please allow permissions.')
     }
   }, [])
 
