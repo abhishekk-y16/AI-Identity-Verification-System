@@ -37,7 +37,7 @@ export default function AttendanceManagementPage() {
       <div className="flex items-center justify-between">
         <div>
           <h1 className="text-2xl font-bold text-gray-900">Attendance Management</h1>
-          <p className="text-gray-500 mt-1">View and manage employee attendance</p>
+          <p className="text-gray-500 mt-1">View and Manage employee attendance</p>
         </div>
         <button onClick={triggerSummary} disabled={summaryLoading}
           className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg text-sm font-medium hover:bg-blue-700 disabled:opacity-50">
