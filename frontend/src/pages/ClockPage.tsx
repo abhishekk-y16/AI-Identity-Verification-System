@@ -212,7 +212,7 @@ export default function ClockPage() {
           Today's Punches
         </h3>
         {todayRecords.length === 0 ? (
-          <p className="text-gray-500 text-sm">No punches recorded today</p>
+          <p className="text-gray-500 text-sm">No Punches recorded today</p>
         ) : (
           <div className="space-y-2">
             {todayRecords.map((r: any) => (
