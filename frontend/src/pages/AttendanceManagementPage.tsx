@@ -57,7 +57,7 @@ export default function AttendanceManagementPage() {
         {loading ? (
           <div className="flex justify-center py-12"><div className="animate-spin h-6 w-6 border-b-2 border-blue-600 rounded-full" /></div>
         ) : records.length === 0 ? (
-          <div className="p-8 text-center text-gray-500 text-sm">No records for this date</div>
+          <div className="p-8 text-center text-gray-500 text-sm">No Records for this Date</div>
         ) : (
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
