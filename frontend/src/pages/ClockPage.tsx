@@ -42,7 +42,7 @@ export default function ClockPage() {
     if (!stream) return
     setStep('recording')
     audioChunksRef.current = []
-    const recorder = new MediaRecorder(stream, { mimeType: 'audio/webm' })
+    const recorder = new MediaRecorder(stream, { mimeType: 'audio/Webm' })
     recorder.ondataavailable = (e) => {
       if (e.data.size > 0) audioChunksRef.current.push(e.data)
     }
