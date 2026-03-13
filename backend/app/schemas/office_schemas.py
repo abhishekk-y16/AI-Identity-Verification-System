@@ -161,7 +161,7 @@ class TodayStatusResponse(BaseModel):
     is_clocked_in: bool
     last_punch_time: datetime | None
     last_punch_type: str | None
-    status: str | None  # on_time, late, etc.
+    status: str | None  # on_time, late, etc. 
 
 
 # ─── Leave ───────────────────────────────────────────────────────────────────
