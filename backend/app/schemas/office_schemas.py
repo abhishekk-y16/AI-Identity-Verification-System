@@ -117,7 +117,7 @@ class EmployeeDirectoryResponse(BaseModel):
 
 class ClockRequest(BaseModel):
     face_image: str  # base64-encoded JPEG
-    voice_audio: str  # base64-encoded audio
+    voice_audio: str  # base64-encoded audio 
     device_id: str | None = None
 
 
