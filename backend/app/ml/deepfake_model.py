@@ -10,7 +10,7 @@ logger = logging.getLogger(__name__)
 class DeepfakeDetector:
     """Deepfake detection using EfficientNet-B0 binary classifier.
     
-    Detects GAN-generated faces, face swaps, and manipulated videos by analyzing
+    Detects GAN-generated  faces, face swaps, and manipulated videos by analyzing
     frequency domain artifacts, compression inconsistencies, and learned features.
     """
 
