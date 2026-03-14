@@ -11,7 +11,7 @@ class DeepfakeDetector:
     """Deepfake detection using EfficientNet-B0 binary classifier.
     
     Detects GAN-generated  faces, face swaps, and manipulated videos by analyzing
-    frequency domain artifacts, compression inconsistencies, and learned features.
+    frequency domain artifacts, compression  inconsistencies, and learned features.
     """
 
     def __init__(self, device: str | None = None):
