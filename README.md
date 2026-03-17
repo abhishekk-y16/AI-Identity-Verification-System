@@ -31,7 +31,7 @@ An advanced full-stack multimodal biometric identity verification platform power
                      └──────────────┘
 ```
 
-## Tech Stack
+## Tech Stack 
 
 **Backend:** Python 3.11, FastAPI, SQLAlchemy (async), PyTorch, FAISS, scikit-learn  
 **Frontend:** React 18, TypeScript, Vite, TailwindCSS, Recharts  
