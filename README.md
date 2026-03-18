@@ -4,7 +4,7 @@ An advanced full-stack multimodal   biometric identity verification platform pow
 
 ---
 
-## Features
+## Features 
 
 | # | Feature | Technology |
 |---|---------|-----------|
