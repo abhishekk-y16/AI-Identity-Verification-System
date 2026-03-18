@@ -54,7 +54,7 @@ cp .env.example .env
 # Edit .env — at minimum change SECRET_KEY for production
 ```
 
-### 2. Run with Docker Compose
+### 2. Run with Docker Compose 
 
 ```bash
 docker-compose up --build
