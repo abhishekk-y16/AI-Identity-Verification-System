@@ -210,6 +210,6 @@ pytest -v
 - **CORS** configured for allowed origins only
 - **File type & size validation** for all uploads
 
-## License
+## License 
 
 MIT
