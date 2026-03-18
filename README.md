@@ -19,7 +19,7 @@ An advanced full-stack multimodal   biometric identity verification platform pow
 | 9 | **Biometric Tokenization** | Cancelable biometrics (random projection) |
 | 10 | **Analytics Dashboard** | Real-time stats, charts, logs |
 
-## Architecture 
+## Architecture  
 
 ```
 ┌──────────────┐     ┌──────────────┐     ┌─────────────┐
