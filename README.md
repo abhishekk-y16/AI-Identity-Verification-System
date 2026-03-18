@@ -92,7 +92,7 @@ uvicorn app.main:app --reload --port 8000
 
 Requires PostgreSQL running locally (update `DATABASE_URL` in `.env`).
 
-### Frontend
+### Frontend 
 
 ```bash
 cd frontend
