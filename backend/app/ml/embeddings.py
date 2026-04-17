@@ -85,7 +85,7 @@ class FaissIndexManager:
             )
 
         with self.lock:
-            # Remove old embedding for this user if exists
+            # Remove old embedding for this user if exists 
             self.remove(user_id)
 
             internal_id = self.next_id
