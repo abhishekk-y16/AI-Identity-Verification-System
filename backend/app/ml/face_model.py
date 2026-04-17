@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 class FaceEmbedder:
     """Face detection, alignment, and embedding extraction using facenet-pytorch.
     
-    Uses MTCNN for face detection/alignment and InceptionResnetV1 for 512-dim embeddings.
+    Uses MTCNN for face detection / alignment and InceptionResnetV1 for 512-dim embeddings.
     """
 
     def __init__(self, device: str | None = None):
