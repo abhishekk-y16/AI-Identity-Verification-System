@@ -72,7 +72,7 @@ class FingerprintProcessor:
             cv2.THRESH_BINARY_INV, 15, 8
         )
 
-        # Morphological thinning (skeletonization)
+        # Morphological thinning (skeletonization) 
         skeleton = self._skeletonize(binary)
 
         # Detect minutiae from skeleton
