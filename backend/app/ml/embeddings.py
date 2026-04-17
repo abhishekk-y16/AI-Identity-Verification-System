@@ -103,7 +103,7 @@ class FaissIndexManager:
             if not ids_to_remove:
                 return
 
-            # Rebuild index without the removed user's embeddings
+            # Rebuild index without the removed user's embeddings 
             all_embeddings = []
             new_id_map = {}
             new_next_id = 0
