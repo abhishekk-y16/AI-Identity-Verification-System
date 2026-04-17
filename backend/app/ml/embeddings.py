@@ -27,7 +27,7 @@ class FaissIndexManager:
         self.id_map: dict[int, str] = {}
         self.next_id: int = 0
 
-        # Create FAISS index
+        # Create FAISS index 
         self.index = faiss.IndexFlatL2(dimension)
 
         # Load existing index if available
