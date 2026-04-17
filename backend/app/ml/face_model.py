@@ -26,7 +26,7 @@ class FaceEmbedder:
             factor=0.709,
             post_process=True,
             device=self.device,
-            keep_all=False,  # return only the most confident face
+            keep_all=False,  # return only the most confident face 
         )
 
         self.model = InceptionResnetV1(pretrained="vggface2").eval().to(self.device)
