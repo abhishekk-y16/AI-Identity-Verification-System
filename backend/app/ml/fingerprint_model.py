@@ -28,7 +28,7 @@ class FingerprintProcessor:
         import torchvision.transforms as transforms
 
         self.model = models.resnet18(weights=models.ResNet18_Weights.DEFAULT)
-        # Remove final classification layer, use 512-dim feature vector
+        # Remove final classification layer, use 512-dim feature vector 
         self.model.fc = torch.nn.Identity()
         self.model.eval().to(self.device)
 
