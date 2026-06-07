@@ -1,4 +1,4 @@
-# AI Identity Verification System (Deep Learning Version)
+# AI Identity Verification System (Deep Learning Version) 
 
 An advanced full-stack multimodal   biometric identity verification platform powered by deep learning. Supports  face recognition, voice authentication, fingerprint matching, liveness detection, deepfake detection, document KYC, behavioral biometrics, fraud detection, and an analytics dashboard.   
   
